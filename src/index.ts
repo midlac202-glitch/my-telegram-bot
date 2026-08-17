@@ -1,14 +1,14 @@
 import { Bot } from 'grammy';
 import dotenv from 'dotenv';
-import { 
-  handleStart, 
-  handlePageSwitch, 
-  handleFontChange, 
-  handleStats 
+import {
+  handleStart,
+  handlePageSwitch,
+  handleFontChange,
+  handleStats
 } from './handlers/start';
-import { 
-  handleTextMessage, 
-  handleNonTextMessage 
+import {
+  handleTextMessage,
+  handleNonTextMessage
 } from '../src/handlers/font';
 
 dotenv.config();
